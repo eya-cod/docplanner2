@@ -1,0 +1,390 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #747474;
+    margin: auto 170px;
+  }
+header {
+    position: sticky;
+    top: 0;
+    padding: 0 40px;
+    background: rgb(255, 255, 255);
+    left: 0;
+    width: 100%;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 167px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  .logo img {
+    width: 268px;
+    height: 33px;
+    padding: 20px;
+  }
+  .main-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  
+
+  .main-nav > li {
+    font-size: 14px;
+    margin: 23px 0px;
+    padding: 0 12px;
+  }
+
+  .nav-bar ul li a {
+    text-decoration: none;
+    color: #747474;
+    font-size: 14px;
+  }
+
+
+  .nav-bar ul li a:hover {
+    color: #00b39b;
+  }
+
+
+  .nav-bar ul li a:active {
+    color: #00b39b;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+
+  .dropdown-items {
+    display: none;
+    position: absolute;
+  }
+
+
+  .dropdown-items ul {
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    min-width: 200px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    list-style: none;
+  }
+
+  .dropdown-items ul li {
+    font-size: 14px;
+    /* margin: 5px; */
+    padding: 8px;
+    width: 100%;
+  }
+
+  .dropdown-items ul li:hover {
+    background: rgba(0, 179, 155, 0.315);
+    box-sizing: border-box;
+  }
+
+  .dropdown:hover .dropdown-items {
+    display: block;
+  }
+
+
+
+
+
+.Marking{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Marking h1{
+    color: #3fc2a6;
+    padding-top: 30px;
+    height: 80px;
+    width: 700px;
+    font-size: 30px;
+    font-weight: lighter;
+    
+
+
+}
+
+.Marking img{
+    height: 40px;
+    width: 40px;
+    margin-top: 80px;
+
+}
+
+
+
+.para{
+    color:grey;
+    display: flex;
+    line-height: 8mm;
+    flex-direction: row-reverse;
+
+}
+
+
+.card-1{
+    background-color: #00b39b;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    width: 50%;
+    position: relative;
+    
+}
+
+.card-2{
+    background-color: #3d83df; 
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    width: 50%;
+    position: relative;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    color: white;
+  
+}
+
+.country-selector select{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.for{
+color: white;
+}
+
+
+
+.patientimg{
+    width: 350px;
+    height: 200px;
+    bottom: 0%;
+    right: 0;
+    position: absolute;
+}
+
+.docimg{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    bottom: 0%;
+    right: 0;
+}
+
+
+.cards h2{
+    padding-bottom: 30px;
+    margin-top: 6px;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+ 
+.brands {
+    display: flex;
+    justify-content: space-between;
+  }
+  .brands h1 {
+    width: 40%;
+  }
+  .brands ul {
+    background-color: #fff;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: auto;
+  }
+  .brands img {
+    width: 150px;
+    height: 20px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+  }
+  .brands img:hover {
+    filter: none;
+    opacity: 1;
+  }
+  .stats-container {
+    background-image: url("/Res/Images/logo-back-gr.png");
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-color: #e5faf8;
+    background-position: 10% 150%;
+    margin: 0px;
+    padding: 0;
+  }
+  .stats-container .stats-items {
+    margin: 33px 167px 60px 167px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .descp {
+    margin-top: 2em;
+    width: 50%;
+  }
+  .descp h1 {
+    padding-bottom: 20px;
+  }
+  .elements {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  .elements .element {
+    height: 200px;
+    background-color: #fff;
+    max-width: 200px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8125em;
+  }
+  .first-element {
+    margin-top: 40px;
+  }
+
+
+
+  .text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .intro h3{
+    color: #3fc2a6;
+    padding-bottom: 5px;
+    height: 100px;
+    width: 500px;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 300;
+    align-items: center;
+    letter-spacing: 3px;
+
+  }
+
+  .intro p{
+      color:gray;
+      padding-bottom: 30px;
+      height: 40px;
+      width: 600px;
+      align-items: center;
+  } 
+  
+
+.boxes {
+    display: flex;
+    float: left;
+   
+
+}
+
+.box {
+    background-color: #fff;
+    width: 200px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.box h3 {
+   color: #00ccb1 ;
+}
+
+
+
+.boxes-left {
+    padding-top: 30px;
+   
+}
+
+.city{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.imagebox {
+    width: 309px;
+    height: 345px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin: 10px;
+}
+.imagebox a {
+    text-decoration: none;
+    color: #747474;
+
+}
+
+.imagebox img {
+    width: 300px;
+    height: 280px;
+
+}
+
+.bout {
+
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 30%;
+    background: #3d83df;
+    color: #fff;
+    font-weight: 700;
+    font-size: 80;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 1px solid #eef2f2;
+    font-size: 0.75em;
+    color: #ababab;
+    text-align: center;
+  }
+  footer p {
+    padding: 15px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #3d83df;
+  }
+  
